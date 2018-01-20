@@ -1,4 +1,3 @@
-## Lista Maurício
 ## 9
 
 ## Naively counting the Taylor Series
