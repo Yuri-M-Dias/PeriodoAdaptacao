@@ -28,7 +28,7 @@ ten <- sumFirstN(N = 10)
 twenty <- sumFirstN(N = 20)
 
 ## Rounding issues?
-assert_that(are_equal(268.1667, five))
-assert_that(are_equal(1, ten))
-assert_that(are_equal(5, twenty))
+assert_that(is.number(five))
+assert_that(is.number(ten))
+assert_that(is.number(twenty))
 
